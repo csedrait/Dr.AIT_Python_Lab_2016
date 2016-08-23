@@ -37,12 +37,12 @@ else:
 
 
 S = input("Enter string: ")
+lst = []
 
-L = S.split()
-for i in range(len(L)):
-	L[i] = L[i].title()
-Cam = "".join(L)
+for word in S.split():
+	lst.append(word[0].upper() + word[1:])
 
+Cam = " ".join(lst)
 print("String '%s' converted to camel case is '%s'" % (S, Cam))
 
 
