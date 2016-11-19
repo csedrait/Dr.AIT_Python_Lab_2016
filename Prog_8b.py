@@ -13,7 +13,7 @@ if nterms <=0:
     print('Please enter a positive number')
 elif nterms == 1:
     print('Fibonacci sequence')
-    print('1')
+    print('n1')
     print('\n')
 else:
     print("Fibonacci sequence")
